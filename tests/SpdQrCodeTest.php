@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rajtik76\QrCodePhp\Tests;
+namespace Rajtik76\PaymentQrCodePhp\Tests;
 
 use Endroid\QrCode\Color\Color;
 use Endroid\QrCode\Encoding\Encoding;
@@ -13,11 +13,11 @@ use Endroid\QrCode\Writer\PngWriter;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 use PHPUnit\Framework\TestCase;
-use Rajtik76\QrCodePhp\Enum\Frequency;
-use Rajtik76\QrCodePhp\Enum\HeaderType;
-use Rajtik76\QrCodePhp\Enum\NotificationType;
-use Rajtik76\QrCodePhp\Exception\ValidationException;
-use Rajtik76\QrCodePhp\SpdQrCode;
+use Rajtik76\PaymentQrCodePhp\Enum\Frequency;
+use Rajtik76\PaymentQrCodePhp\Enum\HeaderType;
+use Rajtik76\PaymentQrCodePhp\Enum\NotificationType;
+use Rajtik76\PaymentQrCodePhp\Exception\ValidationException;
+use Rajtik76\PaymentQrCodePhp\SpdQrCode;
 
 class SpdQrCodeTest extends TestCase
 {

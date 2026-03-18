@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rajtik76\QrCodePhp\Exception;
+namespace Rajtik76\PaymentQrCodePhp\Exception;
 
 use InvalidArgumentException;
 

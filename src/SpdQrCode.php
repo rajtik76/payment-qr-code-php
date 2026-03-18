@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rajtik76\QrCodePhp;
+namespace Rajtik76\PaymentQrCodePhp;
 
 use DateTime;
 use Endroid\QrCode\Color\Color;
@@ -15,10 +15,10 @@ use Endroid\QrCode\Logo\LogoInterface;
 use Endroid\QrCode\QrCode;
 use Endroid\QrCode\RoundBlockSizeMode;
 use Endroid\QrCode\Writer\PngWriter;
-use Rajtik76\QrCodePhp\Enum\Frequency;
-use Rajtik76\QrCodePhp\Enum\HeaderType;
-use Rajtik76\QrCodePhp\Enum\NotificationType;
-use Rajtik76\QrCodePhp\Exception\ValidationException;
+use Rajtik76\PaymentQrCodePhp\Enum\Frequency;
+use Rajtik76\PaymentQrCodePhp\Enum\HeaderType;
+use Rajtik76\PaymentQrCodePhp\Enum\NotificationType;
+use Rajtik76\PaymentQrCodePhp\Exception\ValidationException;
 
 /**
  * Generates a SPAYD (Short Payment Descriptor) QR code string.

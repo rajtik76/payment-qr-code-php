@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rajtik76\QrCodePhp\Enum;
+namespace Rajtik76\PaymentQrCodePhp\Enum;
 
 /**
  * Notification channel for payment confirmation (NT field).

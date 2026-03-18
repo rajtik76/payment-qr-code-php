@@ -1,16 +1,16 @@
 {
-    "name": "rajtik76/qr-code-php",
+    "name": "rajtik76/payment-qr-code-php",
     "description": "PHP library for generating SPD and SCD payment QR codes (SPAYD format) for Czech domestic payments.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Rajtik76\\QrCodePhp\\": "src/"
+            "Rajtik76\\PaymentQrCodePhp\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rajtik76\\QrCodePhp\\Tests\\": "tests/"
+            "Rajtik76\\PaymentQrCodePhp\\Tests\\": "tests/"
         }
     },
     "authors": [
