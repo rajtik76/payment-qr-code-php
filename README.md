@@ -1,5 +1,6 @@
 # rajtik76/payment-qr-code-php
 
+[![Tests](https://github.com/rajtik76/payment-qr-code-php/actions/workflows/tests.yml/badge.svg)](https://github.com/rajtik76/payment-qr-code-php/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![PHP](https://img.shields.io/badge/php-%3E%3D8.4-8892BF.svg)](https://www.php.net/)
 
