@@ -1,4 +1,4 @@
-# rajtik76/qr-code-php
+# rajtik76/spd-qr-code-php
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![PHP](https://img.shields.io/badge/php-%3E%3D8.4-8892BF.svg)](https://www.php.net/)
@@ -20,7 +20,7 @@ The library validates every input against the specification before producing out
 ## Installation
 
 ```bash
-composer require rajtik76/qr-code-php
+composer require rajtik76/spd-qr-code-php
 ```
 
 ---
