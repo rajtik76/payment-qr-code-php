@@ -22,6 +22,7 @@
     "require": {
         "php": ">=8.4",
         "ext-gd": "*",
+        "ext-ctype": "*",
         "endroid/qr-code": "^6.1"
     },
     "require-dev": {
